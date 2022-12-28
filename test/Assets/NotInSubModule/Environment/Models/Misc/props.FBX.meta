@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 2eb96ab71d5ce0a4699bd8ce1326b74b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: props_affiche_sucette
+    100004: props_arret_bus01
+    100006: props_arret_bus03
+    100008: props_arret_bus03 1
+    100010: props_banc
+    100012: props_barriere_velib
+    100014: props_boite_aux_lettres
+    100016: props_borne_incendie
+    100018: props_compteur electrique
+    100020: props_feux_double
+    100022: props_feux_haut
+    100024: props_feux_pietons
+    100026: props_feux_simple
+    100028: props_kiosque01
+    100030: props_kiosque02
+    100032: props_ligne_angle_droit
+    100034: props_ligne_centre
+    100036: props_ligne_partie_droite
+    100038: props_ligne_route_droite001
+    100040: props_ligne_tournant
+    100042: props_ligne_tournant_large
+    100044: props_poubelle_perso
+    100046: props_poubelle_publique01
+    100048: props_poubelle_publique02
+    100050: props_poubelle_publique03
+    100052: props_poubelle_verre
+    100054: props_toilettes_publiques
+    400000: //RootNode
+    400002: props_affiche_sucette
+    400004: props_arret_bus01
+    400006: props_arret_bus03
+    400008: props_arret_bus03 1
+    400010: props_banc
+    400012: props_barriere_velib
+    400014: props_boite_aux_lettres
+    400016: props_borne_incendie
+    400018: props_compteur electrique
+    400020: props_feux_double
+    400022: props_feux_haut
+    400024: props_feux_pietons
+    400026: props_feux_simple
+    400028: props_kiosque01
+    400030: props_kiosque02
+    400032: props_ligne_angle_droit
+    400034: props_ligne_centre
+    400036: props_ligne_partie_droite
+    400038: props_ligne_route_droite001
+    400040: props_ligne_tournant
+    400042: props_ligne_tournant_large
+    400044: props_poubelle_perso
+    400046: props_poubelle_publique01
+    400048: props_poubelle_publique02
+    400050: props_poubelle_publique03
+    400052: props_poubelle_verre
+    400054: props_toilettes_publiques
+    2300000: props_affiche_sucette
+    2300002: props_arret_bus01
+    2300004: props_arret_bus03
+    2300006: props_arret_bus03 1
+    2300008: props_banc
+    2300010: props_barriere_velib
+    2300012: props_boite_aux_lettres
+    2300014: props_borne_incendie
+    2300016: props_compteur electrique
+    2300018: props_feux_double
+    2300020: props_feux_haut
+    2300022: props_feux_pietons
+    2300024: props_feux_simple
+    2300026: props_kiosque01
+    2300028: props_kiosque02
+    2300030: props_ligne_angle_droit
+    2300032: props_ligne_centre
+    2300034: props_ligne_partie_droite
+    2300036: props_ligne_route_droite001
+    2300038: props_ligne_tournant
+    2300040: props_ligne_tournant_large
+    2300042: props_poubelle_perso
+    2300044: props_poubelle_publique01
+    2300046: props_poubelle_publique02
+    2300048: props_poubelle_publique03
+    2300050: props_poubelle_verre
+    2300052: props_toilettes_publiques
+    3300000: props_affiche_sucette
+    3300002: props_arret_bus01
+    3300004: props_arret_bus03
+    3300006: props_arret_bus03 1
+    3300008: props_banc
+    3300010: props_barriere_velib
+    3300012: props_boite_aux_lettres
+    3300014: props_borne_incendie
+    3300016: props_compteur electrique
+    3300018: props_feux_double
+    3300020: props_feux_haut
+    3300022: props_feux_pietons
+    3300024: props_feux_simple
+    3300026: props_kiosque01
+    3300028: props_kiosque02
+    3300030: props_ligne_angle_droit
+    3300032: props_ligne_centre
+    3300034: props_ligne_partie_droite
+    3300036: props_ligne_route_droite001
+    3300038: props_ligne_tournant
+    3300040: props_ligne_tournant_large
+    3300042: props_poubelle_perso
+    3300044: props_poubelle_publique01
+    3300046: props_poubelle_publique02
+    3300048: props_poubelle_publique03
+    3300050: props_poubelle_verre
+    3300052: props_toilettes_publiques
+    4300000: props_affiche_sucette
+    4300002: props_barriere_velib
+    4300004: props_borne_incendie
+    4300006: props_boite_aux_lettres
+    4300008: props_compteur electrique
+    4300010: props_banc
+    4300012: props_poubelle_perso
+    4300014: props_poubelle_publique01
+    4300016: props_poubelle_publique02
+    4300018: props_poubelle_publique03
+    4300020: props_poubelle_verre
+    4300022: props_arret_bus01
+    4300024: props_arret_bus03
+    4300026: props_arret_bus03
+    4300028: props_kiosque01
+    4300030: props_feux_simple
+    4300032: props_feux_haut
+    4300034: props_feux_double
+    4300036: props_feux_pietons
+    4300038: props_kiosque02
+    4300040: props_ligne_tournant_large
+    4300042: props_toilettes_publiques
+    4300044: props_ligne_route_droite001
+    4300046: props_ligne_centre
+    4300048: props_ligne_partie_droite
+    4300050: props_ligne_angle_droit
+    4300052: props_ligne_tournant
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

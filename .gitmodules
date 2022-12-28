@@ -1,0 +1,6 @@
+[submodule "test/Assets/3DViewer"]
+	path = test/Assets/3DViewer
+	url = https://github.com/TheGoodDrive/3DViewer.git
+[submodule "test/Assets/SubModuleGeometry"]
+	path = test/Assets/SubModuleGeometry
+	url = https://github.com/TheGoodDrive/SubModuleGeometry.git
