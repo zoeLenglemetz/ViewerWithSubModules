@@ -4,3 +4,9 @@
 [submodule "test/Assets/SubModuleGeometry"]
 	path = test/Assets/SubModuleGeometry
 	url = https://github.com/TheGoodDrive/SubModuleGeometry.git
+[submodule "ViewerAsSubmodule/Assets/SubModules/SubmoduleViewer"]
+	path = ViewerAsSubmodule/Assets/SubModules/SubmoduleViewer
+	url = https://github.com/TheGoodDrive/SubmoduleViewer.git
+[submodule "ViewerAsSubmodule/Assets/SubModules/SubModuleGeometry"]
+	path = ViewerAsSubmodule/Assets/SubModules/SubModuleGeometry
+	url = https://github.com/TheGoodDrive/SubModuleGeometry.git

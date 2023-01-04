@@ -1,0 +1,465 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'fr' Physical Memory: 16327 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Zoé/Documents/TGD/ViewerWithSubModules/ViewerAsSubmodule
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55182
+Successfully changed project path to: C:/Users/Zoé/Documents/TGD/ViewerWithSubModules/ViewerAsSubmodule
+C:/Users/Zoé/Documents/TGD/ViewerWithSubModules/ViewerAsSubmodule
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 127.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zoé/Documents/TGD/ViewerWithSubModules/ViewerAsSubmodule/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4043 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007948 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 127.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Zoé\Documents\TGD\ViewerWithSubModules\ViewerAsSubmodule\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Zoé\Documents\TGD\ViewerWithSubModules\ViewerAsSubmodule\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8539ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (8075ms)
+			LoadAssemblies (4409ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1013ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (2484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (728ms)
+				ProcessInitializeOnLoadMethodAttributes (1575ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (113.4 KB). Loaded Objects now: 3959.
+Memory consumption went from 135.0 MB to 134.9 MB.
+Total: 5.177200 ms (FindLiveObjects: 0.407500 ms CreateObjectMapping: 0.418200 ms MarkObjects: 4.172300 ms  DeleteObjects: 0.177800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 625314.011726 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_LOD1.mat
+  artifactKey: Guid(c4a103601511565468cd38b07dcbc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_LOD1.mat using Guid(c4a103601511565468cd38b07dcbc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa44eba9768e4c6ccdf9ca51b1aad4c') in 0.299837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Vehicles/NPV_Scooter_Texture_NRM.png
+  artifactKey: Guid(5b2124a1743923743b367ecd31da7cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Vehicles/NPV_Scooter_Texture_NRM.png using Guid(5b2124a1743923743b367ecd31da7cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36b9703d64a00d5813505609b5879cb') in 0.140381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Plastic.mat
+  artifactKey: Guid(d9247589904aa834e943312bea06595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Plastic.mat using Guid(d9247589904aa834e943312bea06595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326f8acdb238ca1b014b60e92929b0fe') in 0.140701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Glass.mat
+  artifactKey: Guid(3ed1c284a9b5eb34e90d3b1570ba1261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Glass.mat using Guid(3ed1c284a9b5eb34e90d3b1570ba1261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c318f03fb6afc64844a31167d97bf059') in 0.085649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Chrome.mat
+  artifactKey: Guid(525a71afb21bbe0468d9f3111481a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Chrome.mat using Guid(525a71afb21bbe0468d9f3111481a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c3f7f54caa5589120daf5c08dd92aa') in 0.038152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchoolWall_Diff.png
+  artifactKey: Guid(986c1e596fa0e3f45947c72e18a206ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchoolWall_Diff.png using Guid(986c1e596fa0e3f45947c72e18a206ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4284743f9682a57bb000e348ee7c021a') in 0.041107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_Glass.mat
+  artifactKey: Guid(78c88e06e0db5014ca8c197be3f6e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_Glass.mat using Guid(78c88e06e0db5014ca8c197be3f6e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0d4f739c424736c5d7f1af3c7c611a') in 0.059166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/NotInSubModule/Environment/Prefabs/Vehicles/Statics/PARK_Scooter.prefab
+  artifactKey: Guid(4b52ed4745a4a6845a759961b000e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Prefabs/Vehicles/Statics/PARK_Scooter.prefab using Guid(4b52ed4745a4a6845a759961b000e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1764a36abf81a547bdfc58159031cbb') in 0.038041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_Base.mat
+  artifactKey: Guid(980fc073134279246a32e14faf7cefac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_Base.mat using Guid(980fc073134279246a32e14faf7cefac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5b93d803ac879293983ecc4bc99c5a') in 0.067136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NotInSubModule/Levels/DemoScene.unity
+  artifactKey: Guid(d802a0fa5be3343468138342872ea10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Levels/DemoScene.unity using Guid(d802a0fa5be3343468138342872ea10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c947615ab28db2675097d8e197bb31') in 0.021642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Vehicles/NPV_Scooter_Texture_Spec.png
+  artifactKey: Guid(80e19e212c6782744a2025719f3447d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Vehicles/NPV_Scooter_Texture_Spec.png using Guid(80e19e212c6782744a2025719f3447d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750398f6cb00117bcf0960e32e8f9773') in 0.026032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NotInSubModule/Environment/Prefabs/ECF/ECFSchool.prefab
+  artifactKey: Guid(ade2f3968ac223c4582e5c135032c872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Prefabs/ECF/ECFSchool.prefab using Guid(ade2f3968ac223c4582e5c135032c872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65be3fdc0f54afec8ba39cc029420ca') in 0.125113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Scenes/SampleScene.unity
+  artifactKey: Guid(5294ff9e93fcdbf4599441bf6273d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Scenes/SampleScene.unity using Guid(5294ff9e93fcdbf4599441bf6273d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c95172ff4812e8f30819361b39483f2') in 0.013805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NotInSubModule/Environment/Prefabs/Landscapes/landscape_Tuto.prefab
+  artifactKey: Guid(4bb89d46eae1db848ba9e11ebdcab0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Prefabs/Landscapes/landscape_Tuto.prefab using Guid(4bb89d46eae1db848ba9e11ebdcab0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430a7305e0448880ee6721bb2372e143') in 0.074117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NotInSubModule/Environment/Models/ECF/ECFschool_LOD1.FBX
+  artifactKey: Guid(ea3f6ed11f5663b44b06644dc41c5f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Models/ECF/ECFschool_LOD1.FBX using Guid(ea3f6ed11f5663b44b06644dc41c5f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b94df16037247605a29805ccf53c2b') in 0.103969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Tire.mat
+  artifactKey: Guid(19d8b40bab22d5b429dc461f6479bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Tire.mat using Guid(19d8b40bab22d5b429dc461f6479bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e031d3639d04d5ed32b47cdce05a012') in 0.047648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchoolWall_NRM.jpg
+  artifactKey: Guid(f367ce8c78451be4f8c09401f31e207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchoolWall_NRM.jpg using Guid(f367ce8c78451be4f8c09401f31e207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c4a9cf7a26f138521f45dfe757e538') in 0.029028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchool_NoLogo.png
+  artifactKey: Guid(f7a7fe219ca810b4882559c7949acdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchool_NoLogo.png using Guid(f7a7fe219ca810b4882559c7949acdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3cd9d681ffe98110e5c856d005902c') in 0.896998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Landscapes/Landscape_Tuto.tga
+  artifactKey: Guid(7782b903342cae24fab62b7543f79468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Landscapes/Landscape_Tuto.tga using Guid(7782b903342cae24fab62b7543f79468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986b35193cbe0193dc84a2dc9aa1e200') in 0.459067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NotInSubModule/Environment/Models/ECF/ECFSchool.FBX
+  artifactKey: Guid(87d161aa22d20c34f8c95c6a320ffa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Models/ECF/ECFSchool.FBX using Guid(87d161aa22d20c34f8c95c6a320ffa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672a792e303d40edb5d0bda9b7d7a8c5') in 0.026623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Landscapes/Landscape_Tuto.mat
+  artifactKey: Guid(b3329fbe6a6419948a7f427469cdfe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Landscapes/Landscape_Tuto.mat using Guid(b3329fbe6a6419948a7f427469cdfe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1e79591c5f4fad14a36fff155aadf1') in 0.021510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_Wall.mat
+  artifactKey: Guid(6b7136ca58b0adf42aa57d3deaf14246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/ECF/ECFSchool_Wall.mat using Guid(6b7136ca58b0adf42aa57d3deaf14246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd925911c11b26faaacc9990634b1517') in 0.038531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchool_Building_NoLogo.png
+  artifactKey: Guid(403e71014cc86944fb626be8c7d3f91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/ECF/DrivingSchool_Building_NoLogo.png using Guid(403e71014cc86944fb626be8c7d3f91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3eb2e8f96acf47940b6a711abc7f86') in 0.021053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Vehicles/NPV_Scooter_Texture_Diff.png
+  artifactKey: Guid(4aec23dd22ae2204a8c0a0561300c2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Vehicles/NPV_Scooter_Texture_Diff.png using Guid(4aec23dd22ae2204a8c0a0561300c2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c6e59fcbfea4b90fbef1ef18febb18') in 0.025965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a66b24ad469b1cc0a3cc7fe76ac43') in 0.003157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Carrosserie.mat
+  artifactKey: Guid(1e5b1785647571749b1a25ef817cf41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Vehicles/Scooter/NPV_Scooter_Carrosserie.mat using Guid(1e5b1785647571749b1a25ef817cf41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb02a730caaa391e0fdbd9397e950365') in 0.038406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2946.040184 seconds.
+  path: Assets/NotInSubModule/SimulationLevelConverters.cs
+  artifactKey: Guid(8bd060e3073b4d7b93309550f68082b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/SimulationLevelConverters.cs using Guid(8bd060e3073b4d7b93309550f68082b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3768d43a5ea3b910023789ccc303f6f') in 0.025707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.564568 seconds.
+  path: Assets/NotInSubModule/Dbo 1/SimulationLevelDbo.cs
+  artifactKey: Guid(599a631579e147498959909fddcba693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Dbo 1/SimulationLevelDbo.cs using Guid(599a631579e147498959909fddcba693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75dff0d6f290071e34e7dede8d0cc86') in 0.030943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.804999 seconds.
+  path: Assets/NotInSubModule/Dto/SimulationLevelDtoResponse.cs
+  artifactKey: Guid(8601a5af1726484982b016b6b8660a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Dto/SimulationLevelDtoResponse.cs using Guid(8601a5af1726484982b016b6b8660a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b260b5db46d5a7483d3adc0774b198e') in 0.017986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.333884 seconds.
+  path: Assets/NotInSubModule/SimulationLevelSequencer.cs
+  artifactKey: Guid(edd23ceab64540a289b436f1b1aa939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/SimulationLevelSequencer.cs using Guid(edd23ceab64540a289b436f1b1aa939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5524db71df63412ce162df6238b198d0') in 0.012764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.963636 seconds.
+  path: Assets/NotInSubModule/Environment/3D Packs/Nature Pack/Nature/Textures_nature/bark1_nmp.psd
+  artifactKey: Guid(3b85eb8ad50546049b0b7e5a8de4f80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/3D Packs/Nature Pack/Nature/Textures_nature/bark1_nmp.psd using Guid(3b85eb8ad50546049b0b7e5a8de4f80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47970d0f7cfaa73086cc1b36c9cff979') in 0.108411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Terrains/Props/Barrier_A_NM.png
+  artifactKey: Guid(9de6fece663324747ba16902fa8c7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Terrains/Props/Barrier_A_NM.png using Guid(9de6fece663324747ba16902fa8c7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff0d10935228c51bb8b2081ee805ca') in 0.041529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NotInSubModule/Environment/Models/ECF/ECFOriflammeECF.FBX
+  artifactKey: Guid(60212bae7b2c22842ba8de6cc46d8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Models/ECF/ECFOriflammeECF.FBX using Guid(60212bae7b2c22842ba8de6cc46d8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aef7356ba942039a6253840fcef9f18') in 0.054045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NotInSubModule/Environment/3D Packs/Nature Pack/Nature/Textures_nature/bark5_nmp.psd
+  artifactKey: Guid(6c487e1facd00c148b9e53372eb72740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/3D Packs/Nature Pack/Nature/Textures_nature/bark5_nmp.psd using Guid(6c487e1facd00c148b9e53372eb72740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e3718add7902df121b37abab410678') in 0.037286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NotInSubModule/Environment/Models/ECF/ECFOriflammeTGD.FBX
+  artifactKey: Guid(2daa48aa905de704bbc2fc0edd610b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Models/ECF/ECFOriflammeTGD.FBX using Guid(2daa48aa905de704bbc2fc0edd610b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c17ef6e32f654f62c6fad0631b1e31') in 0.037647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Terrains/Road/Base_Asphalt01_Norm.png
+  artifactKey: Guid(8660121306ca20646a31a74b32fc2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Terrains/Road/Base_Asphalt01_Norm.png using Guid(8660121306ca20646a31a74b32fc2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d483e18f740dee9a6e691dde1cc541f') in 0.043367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Textures/Props/Barrier_A_NM.png
+  artifactKey: Guid(8f4410ac294d82c43a34c51f447663db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Textures/Props/Barrier_A_NM.png using Guid(8f4410ac294d82c43a34c51f447663db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4467cfaf43504abb9169445209783cc0') in 0.022650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NotInSubModule/Environment/Prefabs/ECF/Cabane_01_mesh.prefab
+  artifactKey: Guid(186b85b2fc9838540b7530dfd4389e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Prefabs/ECF/Cabane_01_mesh.prefab using Guid(186b85b2fc9838540b7530dfd4389e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25384e6c7e9e51c47f89609e14e913c0') in 0.065415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/ECF/Cabane_01_NM.png
+  artifactKey: Guid(964e1a7b783727a40989e040795c33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/ECF/Cabane_01_NM.png using Guid(964e1a7b783727a40989e040795c33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcce54d15f35939abc72582e8259c7a8') in 0.027831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Terrains/Props/BarrierFoot_A_NM.png
+  artifactKey: Guid(950cba364448917478960c0dc1bcdea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Terrains/Props/BarrierFoot_A_NM.png using Guid(950cba364448917478960c0dc1bcdea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7fa1348ae40b6f7ef202ecbf66a827') in 0.037111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NotInSubModule/Environment/Animations/Vehicles/Bike/Man_Cyclist_Animations.fbm/Bicycle_01_Normale.tga
+  artifactKey: Guid(3b7f2e7c69e428a46bf00bc15e85bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Animations/Vehicles/Bike/Man_Cyclist_Animations.fbm/Bicycle_01_Normale.tga using Guid(3b7f2e7c69e428a46bf00bc15e85bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541ef3de4971620207d0ec41d20cb3dc') in 0.036908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NotInSubModule/SimpleFileBrowser/Sprites/Checkmark.psd
+  artifactKey: Guid(4924b77159e651e4aaa9a22286725d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/SimpleFileBrowser/Sprites/Checkmark.psd using Guid(4924b77159e651e4aaa9a22286725d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b7a2e8fe8c21347ff269921005b37a') in 0.079500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NotInSubModule/Environment/3D Packs/Nature Pack/Nature/Textures_nature/branch10_nmp.psd
+  artifactKey: Guid(059d535201255fb4b9c543899edf86c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/3D Packs/Nature Pack/Nature/Textures_nature/branch10_nmp.psd using Guid(059d535201255fb4b9c543899edf86c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91530ba3b53c203213b503829553511e') in 0.041223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Vehicles/Bicycle/Bicycle_01_normal.tga
+  artifactKey: Guid(2ced0bb63b636a94d8433ff0ce485063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Vehicles/Bicycle/Bicycle_01_normal.tga using Guid(2ced0bb63b636a94d8433ff0ce485063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22263d6b469582c9cb7cafea228904af') in 0.031684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Textures/Props/BarrierFoot_A_NM.png
+  artifactKey: Guid(daee5812047422040a6d1e5d8aa924f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Textures/Props/BarrierFoot_A_NM.png using Guid(daee5812047422040a6d1e5d8aa924f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ca70b30f9929389ad76bffcfe4870') in 0.018263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Textures/Props/Bridge_A_NM.png
+  artifactKey: Guid(08d99293bf9770c46a45bf2729871916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubModules/SubmoduleViewer/Assets/3DViewer/Textures/Props/Bridge_A_NM.png using Guid(08d99293bf9770c46a45bf2729871916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8e292338e4c9880e39934401942509') in 0.033919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Nature/Plants/Flowers/Flower02 Red Mat.mat
+  artifactKey: Guid(2df3d30f96f02c6428ea8330292bc450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Nature/Plants/Flowers/Flower02 Red Mat.mat using Guid(2df3d30f96f02c6428ea8330292bc450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef85f650db22e2d9633df6899793b10') in 0.246819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NotInSubModule/Environment/Textures/Nature/Plants/Flowers/Flower02 normal.tga
+  artifactKey: Guid(a31ea9b92ae80a84f914ddca0ff79748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Textures/Nature/Plants/Flowers/Flower02 normal.tga using Guid(a31ea9b92ae80a84f914ddca0ff79748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644e15f19d9477d75b2c0a1939c2513d') in 0.031897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NotInSubModule/Environment/Materials/Nature/Plants/Flowers/Flower02 Blue Mat.mat
+  artifactKey: Guid(1d98b712d828d7d42a4640279a20c644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/Materials/Nature/Plants/Flowers/Flower02 Blue Mat.mat using Guid(1d98b712d828d7d42a4640279a20c644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2274fa960ba367b6809ff6e1cb696293') in 0.041216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.579451 seconds.
+  path: Assets/NotInSubModule/Environment/3D Packs/Car_Collection/Materials/reflectionmap.cubemap
+  artifactKey: Guid(530b169b61cc8d04d9e47dc8d92b77de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Environment/3D Packs/Car_Collection/Materials/reflectionmap.cubemap using Guid(530b169b61cc8d04d9e47dc8d92b77de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb278a9e88b7d20ed58ced88b4613cfb') in 0.074713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.512636 seconds.
+  path: Assets/NotInSubModule/Dto/MapDtoResponse.cs
+  artifactKey: Guid(f361f50c7c1de4a5fa3e81c5928e0b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotInSubModule/Dto/MapDtoResponse.cs using Guid(f361f50c7c1de4a5fa3e81c5928e0b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd6b2771ff42f4e817d4deabf397a37') in 0.009986 seconds 
