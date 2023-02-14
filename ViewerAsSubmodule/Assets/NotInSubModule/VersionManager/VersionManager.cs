@@ -15,7 +15,7 @@ public class VersionManager : MonoBehaviour
     public static int actualVersionOfSoft = 4;
     public dynamic datasFromFileObject;
     delegate dynamic versionFormaterCheck(dynamic prevVersion);
-    public dynamic VersionControl(int actualVersionOfSoft, string filename)
+    public dynamic VersionControl(string filename)
     {
         IOJsonFileService JsonService = new IOJsonFileService();
         string path = File.Exists(filename) ? filename : Application.dataPath + "/NotInSubModule" + filename; //a modifier
@@ -25,7 +25,7 @@ public class VersionManager : MonoBehaviour
             datasFromFileObject = (JObject)JToken.ReadFrom(reader);
         }
 
-        if (datasFromFileObject.version == null) // check if version exist or not , if not create it and instantiate the version var (before version 0 no version was in the files)
+       /* if (datasFromFileObject.version == null) // check if version exist or not , if not create it and instantiate the version var (before version 0 no version was in the files)
         {
             Debug.Log("version need update");
             datasFromFileObject.version = 0;
@@ -37,7 +37,7 @@ public class VersionManager : MonoBehaviour
 
         Dictionary<int, versionFormaterCheck> versionToCall = new Dictionary<int, versionFormaterCheck>()
         {
-            { 0,  ToVersion0},
+            { 0, ToVersion0},
             { 1, ToVersion1},
             { 2, ToVersion2},
             { 3, ToVersion3},
@@ -49,7 +49,7 @@ public class VersionManager : MonoBehaviour
         {
             datasFromFileObject = versionToCall[version].DynamicInvoke(datasFromFileObject);
             version++;
-        }
+        }*/
         datasFromFileObject = JsonConvert.SerializeObject(datasFromFileObject);
         Debug.Log("version update done");
         Debug.Log("new file " + datasFromFileObject);

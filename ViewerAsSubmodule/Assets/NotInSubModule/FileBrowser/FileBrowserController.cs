@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System;
 using SimpleFileBrowser;
 using TheGoodDrive.Data.ScriptableObjects.Configurations.Debug;
+using TheGoodDrive.SubModules.Builders;
 
 namespace TheGoodDrive.UI
 {
@@ -34,7 +35,7 @@ namespace TheGoodDrive.UI
         public void ReadCompiledFile()
         {
             // Debug.Log("READ");
-            StartCoroutine(LaunchRead());
+            StartCoroutine(LaunchRead3D());
         }
 
         /// <summary>
@@ -83,6 +84,34 @@ namespace TheGoodDrive.UI
 
                 OnFileBrowserSimulationLevelLoadEvent?.Invoke(simulationLevelDbo);
                 BuildSimulationLevelEventsManager.OnGenerateSimulationLevel(simulationLevelDbo);*/
+            //}
+        }
+
+        IEnumerator LaunchRead3D()
+        {
+            yield return FileBrowser.WaitForLoadDialog(FileBrowser.PickMode.FilesAndFolders, false, PlayerPrefs.GetString("LastBrowsePath"), null, "Load Files and Folders", "Load");
+
+            if (FileBrowser.Success)
+            {
+
+                // FIXME
+                string filename = FileBrowser.Result[0];
+
+                PlayerPrefs.SetString("LastBrowsePath", Path.GetDirectoryName(FileBrowser.Result[0]));
+
+                versionManager = new VersionManager();
+                datasFromFileObject = versionManager.VersionControl(filename); // check and upgrade if necessary the file to the lastest version handled
+
+
+                SimulationLevelDtoResponse simulationLevelDto = JsonConvert.DeserializeObject<SimulationLevelDtoResponse>(datasFromFileObject);
+                SimulationLevelDbo simulationLevelDbo = simulationLevelDto.ToSimulationLevelDbo();
+
+                //configScriptableObject.SimulationLevelSequencer.SimulationLevelDbo = simulationLevelDbo;
+
+                OnFileBrowserSimulationLevelLoadEvent?.Invoke(simulationLevelDbo);
+                BuildSimulationLevelEventsManager.OnGenerateSimulationLevel(simulationLevelDbo);
+                //Instantiate(speaker);
+                //   configScriptableObject.CurrentSequencer.PlayScene(true);
             }
         }
 
@@ -99,7 +128,7 @@ namespace TheGoodDrive.UI
                 PlayerPrefs.SetString("LastBrowsePath", Path.GetDirectoryName(FileBrowser.Result[0]));
 
                 versionManager = new VersionManager();
-                datasFromFileObject = versionManager.VersionControl(actualVersion, filename); // check and upgrade if necessary the file to the lastest version handled
+                datasFromFileObject = versionManager.VersionControl(filename); // check and upgrade if necessary the file to the lastest version handled
 
 
                 SimulationLevelDtoResponse simulationLevelDto = JsonConvert.DeserializeObject<SimulationLevelDtoResponse>(datasFromFileObject);
